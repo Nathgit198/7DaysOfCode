@@ -11,6 +11,7 @@ while(addMais != "não") {
     while (addMais != "sim" && addMais != "não") {
         alert("Operação não reconhecida!");
         addMais = prompt("Você deseja adicionar uma comida na lista de compras? Por favor responda com 'sim' ou 'não'.");
+
     }
 
     if (addMais === "não") {
